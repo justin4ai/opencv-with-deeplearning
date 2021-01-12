@@ -1,4 +1,4 @@
-# PoseEstimation
+# Pose Estimation
 The repository for team Homiez's second project, Human Pose Estimation.
 
 -Using python (openCV)
