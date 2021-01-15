@@ -1,6 +1,0 @@
-2. 윈도우를 지정하는 cv2.namedWindow() 함수의 두 번째 인수(flags)에 대한 옵션은 여러 가지가 있다.
-그 중에서 cv2.WINDOW_NORMAL와 cv2.WINDWOW_AUTOSIZE 간의 차이를 설명하시오.
-
-A.
-WINDOW_NORMAL : 윈도우 크기가 재조정 가능하다.
-WINDOW_AUTOSIZE : 표시될 행렬의 크기에 맞춰 자동 조정되기 때문에, 조절이 불가하다.
