@@ -1,0 +1,13 @@
+5. cv2.reduce() 함수에 대해서 설명하고, 특히 축소 시에 사용하는 연산 옵션에 대해서 상세히 설명하시오.
+
+A.
+    cv2.reduce(src, dim, rtype) # 행렬을 열/행방향으로 옵션 상수(rtype)에 따라 축소한다.
+
+        src : 2차원 입력 배열 (np.float32, np.float64만 가능)
+        dim : 0 - 열 방향으로 연산하여 1행으로 축소 / 1 - 행 방향으로 축소하여 1열로 축소
+        *rtype
+
+            cv2.REDUCE_SUM
+            cv2.REDUCE_AVG
+            cv2.REDUCE_MAX
+            cv2.REDUCE_MIN
