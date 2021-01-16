@@ -14,7 +14,7 @@ The repository for team Homiez's second project, Human Pose Estimation.
 - [CHAPTER9](https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER9)
 - [CHAPTER10](https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER10)
 
-## <RGB Color List>
+## RGB Color List
 ---
 ---
 
