@@ -1,0 +1,7 @@
+3. 두 개의 영상을 합성하는 방법을 두 가지 이상 기술하시오.
+
+A.
+
+    1) cv2.add(src1, src2)  # 두 영상 단순 더하기
+    2) cv2.add(src1 * alpha, src2 * beta)   # 두 영상 비율에 따른 더하기
+    3) cv2.addWeighted(src1, alpha, src2, beta, 0 (delta) ) # 두 영상 비율에 따른 더하기
