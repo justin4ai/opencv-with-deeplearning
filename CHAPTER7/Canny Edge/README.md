@@ -10,7 +10,7 @@
 
 <br>
 <br>
-<English Materials>
+&lt;English Materials&gt;
 -https://www.youtube.com/watch?v=17cOHpSaqi0   
 -https://www.cs.ubc.ca/~lsigal/425_2018W2/Lecture8.pdf   
 -https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123   
