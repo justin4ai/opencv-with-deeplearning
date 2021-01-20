@@ -18,5 +18,7 @@
         <li>https://www.youtube.com/watch?v=7mEiTU-XgCo&feature=youtu.be (1:02:02)</li><br>
 </ul>
 &lt;Korean Materials&gt;<br>
-https://carstart.tistory.com/188
-https://m.blog.naver.com/PostView.nhn?blogId=jinsoo91zz&logNo=220511441402&proxyReferer=http:%2F%2Fm.blog.naver.com%2Fjinsoo91zz%2F220511441402
+<ul>
+        <li>https://carstart.tistory.com/188</li>
+        <li>https://m.blog.naver.com/PostView.nhn?blogId=jinsoo91zz&logNo=220511441402&proxyReferer=http:%2F%2Fm.blog.naver.com%2Fjinsoo91zz%2F220511441402</li>
+</ul>
