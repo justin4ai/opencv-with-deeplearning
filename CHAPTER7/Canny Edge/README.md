@@ -5,8 +5,8 @@
         현재 화소와 선택된 두 화소의 에지 강도를 비교하여
         최대치가 아니면 억제, 최대치인 것만 에지로 결정 (좌측 상단 -> 우측 하단)
         
-## 4) Determin edges using *Hysteresis threshold*
-
+## 4) Determine edges using *Hysteresis threshold*
+![asd](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCanny_edge_detector&psig=AOvVaw1u4C3ETzyUE_0xI03J1NFr&ust=1611255748731000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOC35ceZq-4CFQAAAAAdAAAAABAD)
 
 <br>
 <br>
@@ -20,5 +20,6 @@
 &lt;Korean Materials&gt;<br>
 <ul>
         <li>https://carstart.tistory.com/188</li>
+        <li>https://m.blog.naver.com/PostView.nhn?blogId=jinsoo91zz&logNo=220511441402&proxyReferer=http:%2F%2Fm.blog.naver.com%2Fjinsoo91zz%2F220511441402</li>
         <li>https://m.blog.naver.com/PostView.nhn?blogId=jinsoo91zz&logNo=220511441402&proxyReferer=http:%2F%2Fm.blog.naver.com%2Fjinsoo91zz%2F220511441402</li>
 </ul>
