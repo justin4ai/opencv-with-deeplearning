@@ -1,4 +1,6 @@
-.markdown-preview.markdown-preview { p, ul, ol {font-size: 1.2em;} }
+p {
+  font-size: 75;
+}
 
 <p>1) 블러링을 통한 노이즈 제거 (가우시안 블러링)</p>
 2) 화소 기울기의 강도와 방향 검출 (소벨 마스크)
