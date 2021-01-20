@@ -1,3 +1,13 @@
+.markdown-preview.markdown-preview { p, ul, ol {font-size: 1.2em;} }
+
+<p>1) 블러링을 통한 노이즈 제거 (가우시안 블러링)</p>
+2) 화소 기울기의 강도와 방향 검출 (소벨 마스크)
+        에지의 방향과 기울기의 방향은 수직!
+3) 비최대치 억제(non-maximum suppression)
+        현재 화소와 선택된 두 화소의 에지 강도를 비교하여
+        최대치가 아니면 억제, 최대치인 것만 에지로 결정 (좌측 상단 -> 우측 하단)
+4) 이력 임계값(hysteresis threshold)으로 에지 결정
+
 https://www.youtube.com/watch?v=17cOHpSaqi0   
 https://www.cs.ubc.ca/~lsigal/425_2018W2/Lecture8.pdf   
 https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123   
