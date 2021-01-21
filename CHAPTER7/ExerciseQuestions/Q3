@@ -1,0 +1,24 @@
+3. 에지 검출 방법의 종류를 아는 대로 적으시오.
+
+A.
+
+    - Roberts Mask
+    - Prewitt Mask
+    - Laplacian Mask
+    - Canny Mask
+
+    + Sobel Mask
+    + LoG(Laplacian of Gaussian) & DoG(Difference of Gaussian)
+
+
+
+
+
+
+    ## 필터링들
+    + MinMax Filtering
+    + Average Filtering (cv2.blur() & cv2.boxFilter() )
+    + Median Filtering
+
+    + Gaussian Smoothing Filtering
+    + ...
