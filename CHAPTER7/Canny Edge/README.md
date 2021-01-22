@@ -25,7 +25,7 @@ After getting gradient magnitude and direction, a full scan of image is done to 
 
 Point A is on the edge ( in vertical direction). Gradient direction is normal to the edge. Point B and C are in gradient directions. So point A is checked with point B and C to see if it forms a local maximum. If so, it is considered for next stage, otherwise, it is suppressed ( put to zero).
 
-In short, the result you get is a binary image with "thin edges" (like the figure on the right).
+<u>In short, the result you get is a binary image with "thin edges" (like the figure on the right)</u>.
 (Best description in [this link](https://www.youtube.com/watch?v=7mEiTU-XgCo&feature=youtu.be) (1:02:02))   
         
         
@@ -38,7 +38,7 @@ The edge A is above the maxVal, so considered as "sure-edge". Although edge C is
 
 This stage also removes small pixels noises on the assumption that edges are long lines.
 
-So what we finally get is strong edges in the image.   
+<u>So what we finally get in this process is strong edges in the image</u>.   
 
 <br>
 <br>
