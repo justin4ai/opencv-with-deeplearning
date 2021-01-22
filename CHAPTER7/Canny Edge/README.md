@@ -4,11 +4,13 @@
 ## 3) Non-maximum suppression
 
 ![img](https://docs.opencv.org/master/nms.jpg)   
-        현재 화소와 선택된 두 화소의 에지 강도를 비교하여
-        최대치가 아니면 억제, 최대치인 것만 에지로 결정 (좌측 상단 -> 우측 하단)
+현재 화소와 선택된 두 화소의 에지 강도를 비교하여 최대치가 아니면 억제, 최대치인 것만 에지로 결정 (좌측 상단 -> 우측 하단)
+(Best description in [this link](https://www.youtube.com/watch?v=7mEiTU-XgCo&feature=youtu.be) (1:02:02))
         
 ## 4) Determine edges using *Hysteresis threshold*
-![asd](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCanny_edge_detector&psig=AOvVaw1u4C3ETzyUE_0xI03J1NFr&ust=1611255748731000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOC35ceZq-4CFQAAAAAdAAAAABAD)
+![asd](https://docs.opencv.org/master/hysteresis.jpg)
+
+
 
 <br>
 <br>
