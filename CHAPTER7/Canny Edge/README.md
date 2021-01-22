@@ -10,16 +10,16 @@ Smoothened image is then filtered with a Sobel kernel in both horizontal and ver
 Gradient direction is always perpendicular to edges. It is rounded to one of four angles representing vertical, horizontal and two diagonal directions.   
 
 
-## 3) Non-maximum suppression
+## 3) Non-maximum suppression (left-top -> right-bottom)
 After getting gradient magnitude and direction, a full scan of image is done to remove any unwanted pixels which may not constitute the edge. For this, at every pixel, pixel is checked if it is a local maximum in its neighborhood in the direction of gradient. Check the image below:   
 
 <p align="center"><img src="https://docs.opencv.org/master/nms.jpg"></img>
 <img src="https://developer.ibm.com/recipes/wp-content/uploads/sites/41/2019/11/non-max-suppression.png"></img></p>      
 
-현재 화소와 선택된 두 화소의 에지 강도를 비교하여 최대치가 아니면 억제, 최대치인 것만 에지로 결정 (좌측 상단 -> 우측 하단)
+
 Point A is on the edge ( in vertical direction). Gradient direction is normal to the edge. Point B and C are in gradient directions. So point A is checked with point B and C to see if it forms a local maximum. If so, it is considered for next stage, otherwise, it is suppressed ( put to zero).
 
-In short, the result you get is a binary image with "thin edges".
+In short, the result you get is a binary image with "thin edges" (like the figure on the right).
 (Best description in [this link](https://www.youtube.com/watch?v=7mEiTU-XgCo&feature=youtu.be) (1:02:02))   
         
         
