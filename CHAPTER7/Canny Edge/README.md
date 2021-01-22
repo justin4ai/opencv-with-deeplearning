@@ -1,6 +1,6 @@
 ## 1) Noise elimination through *Gaussian Blurring*
-Since edge detection is susceptible to noise in the image, first step is to remove the noise in the image with a 5x5 Gaussian filter.
-   
+Since edge detection is susceptible to noise in the image, first step is to remove the noise in the image with a 5x5 Gaussian filter.    
+[Gaussian filter?](https://github.com/AhnJunYeong0319/PoseEstimation/new/main/CHAPTER7/Nonlinear%20Filtering)
    
 ## 2) Detect direction and intensity of pixel gradient using *Sobel mask*
 Smoothened image is then filtered with a Sobel kernel in both horizontal and vertical direction to get first derivative in horizontal direction ( **Gx**) and vertical direction ( **Gy**). From these two images, we can find edge gradient and direction for each pixel as follows:   
