@@ -13,7 +13,7 @@ Smoothened image is then filtered with a Sobel kernel in both horizontal and ver
 
 Gradient direction is always perpendicular to edges. It is rounded to one of four angles representing vertical, horizontal and two diagonal directions.   
 
-[Sobel mask](https://github.com/AhnJunYeong0319/PoseEstimation/new/main/CHAPTER7/Nonlinear%20Filtering)?   
+[Sobel mask](https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER7/1st%20Derivative%20Mask)?   
    
    
 ## 3) Non-maximum suppression (left-top -> right-bottom)
