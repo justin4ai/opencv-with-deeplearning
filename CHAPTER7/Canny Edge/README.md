@@ -1,22 +1,31 @@
 ## 1) Noise elimination through *Gaussian Blurring*
 Since edge detection is susceptible to noise in the image, first step is to remove the noise in the image with a 5x5 Gaussian filter.
    
+   
 ## 2) Detect direction and intensity of pixel gradient using *Sobel mask*
 Smoothened image is then filtered with a Sobel kernel in both horizontal and vertical direction to get first derivative in horizontal direction ( Gx) and vertical direction ( Gy). From these two images, we can find edge gradient and direction for each pixel as follows:   
-![img](https://www.programmersought.com/images/370/f6924c211ad02af5c0d54b29c6ced3a2.JPEG)   
+
+<p align="center"><img src="https://www.programmersought.com/images/370/f6924c211ad02af5c0d54b29c6ced3a2.JPEG"></img></p>   
+
 Gradient direction is always perpendicular to edges. It is rounded to one of four angles representing vertical, horizontal and two diagonal directions.   
+
+
 ## 3) Non-maximum suppression
 After getting gradient magnitude and direction, a full scan of image is done to remove any unwanted pixels which may not constitute the edge. For this, at every pixel, pixel is checked if it is a local maximum in its neighborhood in the direction of gradient. Check the image below:   
+
 <p align="center"><img src="https://docs.opencv.org/master/nms.jpg"></img></p>      
+
 현재 화소와 선택된 두 화소의 에지 강도를 비교하여 최대치가 아니면 억제, 최대치인 것만 에지로 결정 (좌측 상단 -> 우측 하단)
 Point A is on the edge ( in vertical direction). Gradient direction is normal to the edge. Point B and C are in gradient directions. So point A is checked with point B and C to see if it forms a local maximum. If so, it is considered for next stage, otherwise, it is suppressed ( put to zero).
 
 In short, the result you get is a binary image with "thin edges".
 (Best description in [this link](https://www.youtube.com/watch?v=7mEiTU-XgCo&feature=youtu.be) (1:02:02))   
         
+        
 ## 4) Determine edges using *Hysteresis threshold*
 This stage decides which are all edges are really edges and which are not. For this, we need two threshold values, minVal and maxVal. Any edges with intensity gradient more than maxVal are sure to be edges and those below minVal are sure to be non-edges, so discarded. Those who lie between these two thresholds are classified edges or non-edges based on their connectivity. If they are connected to "sure-edge" pixels, they are considered to be part of edges. Otherwise, they are also discarded. See the image below:
-![asd](https://docs.opencv.org/master/hysteresis.jpg)
+
+<p align="center"><img src="https://docs.opencv.org/master/hysteresis.jpg"></img></p> 
 
 The edge A is above the maxVal, so considered as "sure-edge". Although edge C is below maxVal, it is connected to edge A, so that also considered as valid edge and we get that full curve. But edge B, although it is above minVal and is in same region as that of edge C, it is not connected to any "sure-edge", so that is discarded. So it is very important that we have to select minVal and maxVal accordingly to get the correct result.
 
