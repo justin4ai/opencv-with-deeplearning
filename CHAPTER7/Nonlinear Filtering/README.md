@@ -4,7 +4,7 @@
 ## 1) 1D / 2D Gaussian Distribution
 After getting gradient magnitude and direction, a full scan of image is done to remove any unwanted pixels which may not constitute the edge. For this, at every pixel, pixel is checked if it is a local maximum in its neighborhood in the direction of gradient. Check the image below:   
 
-<p align="center"><img src="https://miro.medium.com/max/3180/1*Hl187KkimHPDmMtChYSQBA.png"></img>
+<p align="center"><img src="https://matthew-brett.github.io/teaching/_images/smoothing_intro-3.png"></img>
 <img src="https://i2.wp.com/theailearner.com/wp-content/uploads/2019/05/normal4.png?resize=625%2C368&ssl=1"></img></p>      
 
 
