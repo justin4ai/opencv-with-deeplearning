@@ -8,10 +8,7 @@
 <img src="https://i2.wp.com/theailearner.com/wp-content/uploads/2019/05/gradien.png?resize=419%2C132&ssl=1"></img></p>      
 
 
-When standard deviation gets bigger, the height of distribution gets lower and the width of it gets fatter. This means that the blurring effect will become weaker since
-the center coefficient has no big difference with surrounding ones.   
-And needless to say, when std_dev gets smaller, thick blurring effect we get.
-        
+
         
 ## 2) After applying?
 
