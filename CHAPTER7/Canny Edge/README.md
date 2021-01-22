@@ -1,6 +1,5 @@
 <h1> ● Canny Edge Detection </h1>
-   
-   
+<br><br>
    
 ## 1) Noise elimination through *Gaussian Blurring*
 Since edge detection is susceptible to noise in the image, first step is to remove the noise in the image with a 5x5 Gaussian filter.    
