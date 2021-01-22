@@ -55,17 +55,3 @@ This stage also removes small pixels noises on the assumption that edges are lon
         <li>https://m.blog.naver.com/PostView.nhn?blogId=jinsoo91zz&logNo=220511441402&proxyReferer=http:%2F%2Fm.blog.naver.com%2Fjinsoo91zz%2F220511441402</li>
         <li>https://m.blog.naver.com/PostView.nhn?blogId=jinsoo91zz&logNo=220511441402&proxyReferer=http:%2F%2Fm.blog.naver.com%2Fjinsoo91zz%2F220511441402</li>
 </ul>
-
-
-```C++
-#include<iostream>
-int main() 
-{ 
-    std::cout <<"Hello, World!!"<< std::endl;
-}
-```
-
-```python
-for i in range(3):
-    print(i)
-```
