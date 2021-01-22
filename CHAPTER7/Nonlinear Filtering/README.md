@@ -8,10 +8,9 @@ After getting gradient magnitude and direction, a full scan of image is done to 
 <img src="https://i2.wp.com/theailearner.com/wp-content/uploads/2019/05/normal4.png?resize=625%2C368&ssl=1"></img></p>      
 
 
-Point A is on the edge ( in vertical direction). Gradient direction is normal to the edge. Point B and C are in gradient directions. So point A is checked with point B and C to see if it forms a local maximum. If so, it is considered for next stage, otherwise, it is suppressed ( put to zero).
-
-In short, the result you get is a binary image with "thin edges" (like the figure on the right).
-(Best description in [this link](https://www.youtube.com/watch?v=7mEiTU-XgCo&feature=youtu.be) (1:02:02))   
+When standard deviation gets bigger, the height of distribution gets lower and the width of it gets fatter. This means that the blurring effect will become weaker since
+the center coefficient has no big difference with surrounding ones.   
+And needless to say, when std_dev gets smaller, thick blurring effect we get.
         
         
 ## 2) Consisting Gaussian Smoothing Kernel(Mask)
@@ -28,3 +27,8 @@ Blurred = cv2.GaussianBlur(image, ksize, 0)
 cv2.imshow("Gaussian Filtering", Blurred)
 cv2.waitKey(0)
 ```
+   
+## 3) Question?
+As I know, Gaussian Distribution is processed in LINEAR way regardless of seeing it of 1D or 2D due to the form of its formula.   
+However, This book classifies Gaussian Smoothing Filter as NONLINEAR method of filtering. HOW CAN?   
+Simple linear regression is absolutely linear method and still is even when it changes into Multiple linear regression who has multiple features but linear formula.
