@@ -4,7 +4,8 @@
 ## 1) 1D / 2D Gaussian Distribution
 After getting gradient magnitude and direction, a full scan of image is done to remove any unwanted pixels which may not constitute the edge. For this, at every pixel, pixel is checked if it is a local maximum in its neighborhood in the direction of gradient. Check the image below:   
 
-<p align="center"><img src="https://i0.wp.com/www.adeveloperdiary.com/wp-content/uploads/2019/05/How-to-implement-Sobel-edge-detection-using-Python-from-scratch-adeveloperdiary.com-sobel-sobel-operator.jpg?resize=744%2C356"></img></p>      
+<p align="center"><img src="https://i0.wp.com/www.adeveloperdiary.com/wp-content/uploads/2019/05/How-to-implement-Sobel-edge-detection-using-Python-from-scratch-adeveloperdiary.com-sobel-sobel-operator.jpg?resize=744%2C356"></img>
+<img src="https://i2.wp.com/theailearner.com/wp-content/uploads/2019/05/gradien.png?resize=419%2C132&ssl=1"></img></p>      
 
 
 When standard deviation gets bigger, the height of distribution gets lower and the width of it gets fatter. This means that the blurring effect will become weaker since
