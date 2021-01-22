@@ -15,12 +15,16 @@ In short, the result you get is a binary image with "thin edges" (like the figur
         
         
 ## 2) Consisting Gaussian Smoothing Kernel(Mask)
-This stage decides which are all edges are really edges and which are not. For this, we need two threshold values, minVal and maxVal. Any edges with intensity gradient more than maxVal are sure to be edges and those below minVal are sure to be non-edges, so discarded. Those who lie between these two thresholds are classified edges or non-edges based on their connectivity. If they are connected to "sure-edge" pixels, they are considered to be part of edges. Otherwise, they are also discarded. See the image below:
+Each coefficient of kernel(= each element of mask matrix) is set based on Gaussian Distribution above. Also, so as to keep the brightness of the input image the same after smoothing, we should make a sum of kernel(mask) coefficients become '1'. See the matrix below:
 
 <p align="center"><img src="https://homepages.inf.ed.ac.uk/rbf/HIPR2/figs/gausmask.gif"></img></p> 
 
-The edge A is above the maxVal, so considered as "sure-edge". Although edge C is below maxVal, it is connected to edge A, so that also considered as valid edge and we get that full curve. But edge B, although it is above minVal and is in same region as that of edge C, it is not connected to any "sure-edge", so that is discarded. So it is very important that we have to select minVal and maxVal accordingly to get the correct result.
+After passing convolution process, this filter eventually smooths the image!
 
-This stage also removes small pixels noises on the assumption that edges are long lines.
+```python
+import cv2
+Blurred = cv2.GaussianBlur(image, ksize, 0)
 
-So what we finally get is strong edges in the image.   
+cv2.imshow("Gaussian Filtering", Blurred)
+cv2.waitKey(0)
+```
