@@ -3,7 +3,7 @@
         에지의 방향과 기울기의 방향은 수직!
 ## 3) Non-maximum suppression
 
-![img](https://docs.opencv.org/master/nms.jpg)
+![img](https://docs.opencv.org/master/nms.jpg)   
         현재 화소와 선택된 두 화소의 에지 강도를 비교하여
         최대치가 아니면 억제, 최대치인 것만 에지로 결정 (좌측 상단 -> 우측 하단)
         
