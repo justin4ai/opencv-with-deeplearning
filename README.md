@@ -1,6 +1,6 @@
 ![asdf](https://img.shields.io/github/issues/AhnJunYeong0319/PoseEstimation)  ![asdf](https://img.shields.io/github/forks/AhnJunYeong0319/PoseEstimation)  ![asdf](https://img.shields.io/github/stars/AhnJunYeong0319/PoseEstimation)  ![asdf](https://img.shields.io/github/license/AhnJunYeong0319/PoseEstimation)   
-Step 1 - CV Study)January 8, 2021 ~ Fabruary 2, 2021   
-Step 2 - Pose Correction)Fabruary 3, 2021 ~ Fabruary 28, 2021
+Step 1 - CV Study) January 8, 2021 ~ Fabruary 2, 2021   
+Step 2 - Pose Correction) Fabruary 3, 2021 ~ Fabruary 28, 2021
 # Pose Estimation
 The repository for team Homiez's second project, Human Pose Estimation
 
