@@ -1,6 +1,8 @@
+<h1> Canny Edge Detection </h1>
+
 ## 1) Noise elimination through *Gaussian Blurring*
 Since edge detection is susceptible to noise in the image, first step is to remove the noise in the image with a 5x5 Gaussian filter.    
-[Gaussian filter](https://github.com/AhnJunYeong0319/PoseEstimation/new/main/CHAPTER7/Nonlinear%20Filtering)?
+[Gaussian filter](https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER7/Nonlinear%20Filtering)?
    
    
 ## 2) Detect direction and intensity of pixel gradient using *Sobel mask*
