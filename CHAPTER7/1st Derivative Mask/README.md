@@ -1,4 +1,4 @@
-<h1> ● Sobel Mask </h1>
+<h1> Sobel Mask </h1>
 <br>
    
 ## 1) How the Mask Consists
