@@ -1,7 +1,7 @@
 <h1> ● Sobel Mask </h1>
 <br>
    
-## 1) How the Mask Consist
+## 1) How the Mask Consists
 
 
 <p align="center"><img src="https://i0.wp.com/www.adeveloperdiary.com/wp-content/uploads/2019/05/How-to-implement-Sobel-edge-detection-using-Python-from-scratch-adeveloperdiary.com-sobel-sobel-operator.jpg?resize=744%2C356"></img>
