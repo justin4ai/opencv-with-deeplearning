@@ -5,7 +5,7 @@
 Since edge detection is susceptible to noise in the image, first step is to remove the noise in the image with a 5x5 Gaussian filter.    
 [Gaussian filter](https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER7/Nonlinear%20Filtering)?
    
-   
+<br>
 ## 2) Detect direction and intensity of pixel gradient using *Sobel mask*
 Smoothened image is then filtered with a Sobel kernel in both horizontal and vertical direction to get first derivative in horizontal direction ( **Gx**) and vertical direction ( **Gy**). From these two images, we can find edge gradient and direction for each pixel as follows:   
 
@@ -15,7 +15,7 @@ Gradient direction is always perpendicular to edges. It is rounded to one of fou
 
 [Sobel mask](https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER7/1st%20Derivative%20Mask)?   
    
-   
+<br>
 ## 3) Non-maximum suppression (left-top -> right-bottom)
 After getting gradient magnitude and direction, a full scan of image is done to remove any unwanted pixels which may not constitute the edge. For this, at every pixel, pixel is checked if it is a local maximum in its neighborhood in the direction of gradient. Check the image below:   
 
@@ -28,7 +28,7 @@ Point A is on the edge ( in vertical direction). Gradient direction is normal to
 <u>In short, the result you get is a binary image with "thin edges" (like the figure on the right)</u>.
 (Best description in [this link](https://www.youtube.com/watch?v=7mEiTU-XgCo&feature=youtu.be) (1:02:02))   
         
-        
+<br>
 ## 4) Determine edges using *Hysteresis threshold*
 This stage decides which are all edges are really edges and which are not. For this, we need two threshold values, minVal and maxVal. Any edges with intensity gradient more than maxVal are sure to be edges and those below minVal are sure to be non-edges, so discarded. Those who lie between these two thresholds are classified edges or non-edges based on their connectivity. If they are connected to "sure-edge" pixels, they are considered to be part of edges. Otherwise, they are also discarded. See the image below:
 
