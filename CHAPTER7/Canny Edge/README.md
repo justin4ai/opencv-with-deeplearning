@@ -6,6 +6,7 @@ Since edge detection is susceptible to noise in the image, first step is to remo
 [Gaussian filter](https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER7/Nonlinear%20Filtering)?
    
 <br>   
+
 ## 2) Detect direction and intensity of pixel gradient using *Sobel mask*
 Smoothened image is then filtered with a Sobel kernel in both horizontal and vertical direction to get first derivative in horizontal direction ( **Gx**) and vertical direction ( **Gy**). From these two images, we can find edge gradient and direction for each pixel as follows:   
 
