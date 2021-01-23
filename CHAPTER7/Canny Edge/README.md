@@ -1,4 +1,4 @@
-<h1> ● Canny Edge Detection </h1>
+<h1> Canny Edge Detection </h1>
 <br>
    
 ## 1) Noise elimination through *Gaussian Blurring*
