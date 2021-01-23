@@ -33,7 +33,7 @@ Point A is on the edge ( in vertical direction). Gradient direction is normal to
 <br>   
 
 ## 4) Determine edges using *Hysteresis threshold*
-This stage decides which are all edges are really edges and which are not. For this, we need two threshold values, minVal and maxVal. Any edges with intensity gradient more than maxVal are sure to be edges and those below minVal are sure to be non-edges, so discarded. Those who lie between these two thresholds are classified edges or non-edges based on their connectivity. If they are connected to "sure-edge" pixels, they are considered to be part of edges. Otherwise, they are also discarded. See the image below:
+This stage decides whether they are actual edges or not. For this, we need two threshold values, minVal and maxVal. Any edges with intensity gradient more than maxVal are sure to be edges and those below minVal are sure to be non-edges, so discarded. Those who lie between these two thresholds are classified edges or non-edges based on their connectivity. If they are connected to "sure-edge" pixels, they are considered to be part of edges. Otherwise, they are also discarded. See the image below:
 
 <p align="center"><img src="https://docs.opencv.org/master/hysteresis.jpg"></img></p> 
 
