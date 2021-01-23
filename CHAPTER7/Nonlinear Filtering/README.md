@@ -1,4 +1,4 @@
-<h1> ● Gaussian Smoothing Filter </h1>
+<h1> Gaussian Smoothing Filter </h1>
 <br>
    
 ## 1) 1D / 2D Gaussian Distribution
