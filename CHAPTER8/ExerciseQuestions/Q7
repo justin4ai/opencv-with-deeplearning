@@ -1,0 +1,22 @@
+7. Affine 변환을 수행하는 OpenCV 함수들을 예시하고 인수들에 대해 설명하시오.
+
+A.
+
+    cv2.warpAffine(src, M, dsize, flags, borderMode)
+        src : 입력 영상
+        M : 어파인 변환 행렬
+        dsize : 반환 영상의 크기
+        flags : 보간 방법
+        borderMode : 경계지정 방법
+
+    cv2.getAffineTransform(src, dst)
+        src : 입력 영상 좌표 3개
+        dst : 목적 영상 좌표 3개
+
+    cv2.getRotationMatrix2D(ceter, angle, scale)
+        center : 회전의 중심점
+        angle : 회전 각도
+        scale : 변경할 크기
+
+    cv2.invertAffineTransform(M)
+        M : 어파인 변환 행렬

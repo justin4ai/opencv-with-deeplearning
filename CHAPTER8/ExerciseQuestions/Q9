@@ -1,0 +1,21 @@
+9. 원근 변환을 수행하는 OpenCV 함수들을 예시하고 각 인수들을 설명하시오.
+
+A.
+
+    cv2.getPerspectiveTransform(src, dst, borderMode)
+        src : 입력 영상 4개 좌표
+        dst : 목적 영상 4개 좌표
+        borderMode : 경계지정 방법
+
+    cv2.warpPerspective(src, M, dsize, dst, flags, borderMode, borderValue)
+        src : 입력 영상
+        M : 원근 변환 행렬
+        dsize : 결과 영상의 크기
+        dst : 결과 영상
+        flags : 보간 방법
+        borderMode : 경계지정 방법
+        borderValue : 상수 경계일 때, 경계 화소값
+
+    cv2.transform(src, M)
+        src : 입력 좌표 행렬
+        M : 원근 변환 행렬
