@@ -13,7 +13,7 @@
 <ol>
   <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER9/DFT">DFT</a> : <strong>D</strong>iscrete <strong>F</strong>urier <strong>T</strong>ransform</li>
   
-  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER9/FFT">FFT</a> : <strong>F</strong>ast <strong>F</strong>urier <strong>T</strong>ransforma</li>
+  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER9/FFT">FFT</a> : <strong>F</strong>ast <strong>F</strong>urier <strong>T</strong>ransform</li>
   <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER9/Filtering">Filtering</a> : Filtering using FFT</li>
   <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER9/DCT">DCT</a> : <strong>D</strong>iscrete <strong>C</strong>osine <strong>T</strong>ransform </li>
 </ol>
