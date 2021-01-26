@@ -3,8 +3,8 @@
 
 *Default*
 <ul>
-  <li>images : Images used in practice codes</li>
-  <li>ExerciseQuestions : Solution codes for excercise problems of each chapter.
+  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER4/images">images</a> : Images used in practice codes</li>
+  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER4/ExerciseQuestions">ExerciseQuestions</a> : Solution codes for excercise problems of each chapter.
 </ul>
 
 <ol>
