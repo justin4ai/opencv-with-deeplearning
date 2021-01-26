@@ -3,18 +3,17 @@
 
 *Default*
 <ul>
-  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER4/images">images</a> : Images used in practice codes</li>
-  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER4/ExerciseQuestions">ExerciseQuestions</a> : Solution codes for excercise problems of each chapter
+  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER8/images">images</a> : Images used in practice codes</li>
+  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER8/ExerciseQuestions">ExerciseQuestions</a> : Solution codes for excercise problems of each chapter
 </ul>
 <br>
 <hr>
 <strong>CHATER 08 Folders</strong>
 <br><br>
 <ol>
-  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER4/Basic%20Interact">Basic Interaction</a> : Interaction between computer and mouse&keyboard input</li>
+  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER8/Basic%20Mapping">Basic Mapping</a> : What is Mapping in video processing?</li>
   
-  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER4/Drawing">Drawing</a> : Drawing some figures</li>
-  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER4/Read%26Write">Read&Write</a> : Reading and Writing image files</li>
-  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER4/Camera">Camera</a> : Getting the frame from real-time camera </li>
+  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER8/Affine">Affine</a> : Affine transformation using matrices</li>
+  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER8/Perspective">Perspective</a> : Coordinating perspective</li>
 </ol>
 
