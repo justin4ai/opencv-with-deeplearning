@@ -4,7 +4,7 @@
 *Default*
 <ul>
   <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER7/images">images</a> : Images used in practice codes</li>
-  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER7/ExerciseQuestions</a> : Solution codes for excercise problems of each chapter
+  <li><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER7/ExerciseQuestions</a> : Solution codes for excercise problems of each chapter</li>
 </ul>
 <br>
 <hr>
