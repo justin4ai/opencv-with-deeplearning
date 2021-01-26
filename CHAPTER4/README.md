@@ -1,4 +1,4 @@
-<h2> CHAPTER 03 - Skimming Through Python </h2>
+<h2> CHAPTER 04 - OpenCV/User Interface </h2>
 
 
 *Default*
