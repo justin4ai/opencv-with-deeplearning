@@ -1,0 +1,21 @@
+5. DFT 수행 과정에서 복소수인 계수들을 주파수 스펙트럼 영상으로 표시하는 과정을 소스 코드로
+작성하고 설명하시오.
+
+A.
+    def dft2(image):
+        tmp = [dft(row) for row in image]
+        dst = [dft(row) for row in np.transpose(tmp)]
+        return np.transpose(dst)
+
+    dft = dft2(image)
+
+    def calc_spectrum(complex):
+        if complex.ndim == 2:
+            dst = abs(complex)
+        else :
+            dst = cv2.magnitude(complex[:, :, 0], complex[:, :, 1])
+        dst = cv2.log(dst + 1)
+        cv2.normalize(dst, dst, 0, 255, cv2.NORM_MINMAX)
+        return cv2.convertScaleAbs(dst)
+
+    print(calc_spectrum(dft))
