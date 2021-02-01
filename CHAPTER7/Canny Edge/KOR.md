@@ -3,7 +3,7 @@
 <br>
    
 ## 1) 가우시안 블러링을 사용한 노이즈 제거
-에지 검출은 이미지 속의 노이즈에 크게 영향받기 때문에, 첫 단계는 5x5 가우시안 피렅로 이미지 속 노이즈를 제거하는 것입니다.
+에지 검출은 이미지 속의 노이즈에 크게 영향받기 때문에, 첫 단계는 5x5 가우시안 필터로 이미지 속 노이즈를 제거하는 것입니다.
 [가우시안 필터란](https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/CHAPTER7/Nonlinear%20Filtering)?
    
 <br>   
