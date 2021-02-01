@@ -1,5 +1,5 @@
 <h1> Canny Edge Detection </h1>
-<span align="center">한국어</span>
+<div align="center">한국어</div>
 <br>
    
 ## 1) Noise elimination through *Gaussian Blurring*
