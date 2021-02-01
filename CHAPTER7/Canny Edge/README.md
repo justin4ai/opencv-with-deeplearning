@@ -1,5 +1,5 @@
 <h1> Canny Edge Detection </h1>
-<div align="center">한국어</div>
+<div align="center"><a href="https://github.com/AhnJunYeong0319/PoseEstimation/blob/main/CHAPTER7/Canny%20Edge/KOR.md">한국어</a></div>
 <br>
    
 ## 1) Noise elimination through *Gaussian Blurring*
