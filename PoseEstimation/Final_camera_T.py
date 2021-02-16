@@ -1,4 +1,5 @@
 import cv2
+import numpy as np
 import random
 import pickle, getpass
 
@@ -35,31 +36,40 @@ while True:
     exposure = capture.get(cv2.CAP_PROP_EXPOSURE)
     title = "View Frame from Camera"
 
-    if cnt % 4 == 0:
+    if cnt % 2 == 0:
         '''cv2.imwrite(f"images/{int(cnt)}.jpg", frame)'''
-        image = frame
+        image = frame.copy()
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)                 # 프레임 받아서 grayscale로 전환
 
         color_data.append(frame)
         gray_data.append(image)
+        print(int(cnt / 2))
     cnt += 1
     cv2.imshow(title, frame)
 
-    if cnt == 5000: break
+    if cnt == 2500: break
 
-color_data2 = [random.choice(color_data) for i in range(1250)]
+nums = [i for i in range(1250)]
+
+random.shuffle(nums)
+
+color_data = np.array(color_data)
+gray_data = np.array(gray_data)
+
+color_data2 = color_data[nums]
+gray_data2 = gray_data[nums]
+
 x_train_color = color_data2[:1000]
 x_test_color = color_data2[1000:1251]
 
-gray_data2 = [random.choice(gray_data) for i in range(1250)]
 x_train_gray = gray_data2[:1000]
 x_test_gray = gray_data2[1000:1251]
 
 # train data pickle
 
-pickle_out = open(f"{getpass.getuser()}_x_train_color_T.pickle", "wb")
-pickle.dump(x_train_color, pickle_out)
-pickle_out.close()
+#pickle_out = open(f"{getpass.getuser()}_x_train_color_T.pickle", "wb")
+#pickle.dump(x_train_color, pickle_out)
+#pickle_out.close()
 
 pickle_out = open(f"{getpass.getuser()}_x_train_gray_T.pickle", "wb")
 pickle.dump(x_train_gray, pickle_out)
@@ -67,9 +77,9 @@ pickle_out.close()
 
 # test data pickle
 
-pickle_out = open(f"{getpass.getuser()}_x_test_color_T.pickle", "wb")
-pickle.dump(x_test_color, pickle_out)
-pickle_out.close()
+#pickle_out = open(f"{getpass.getuser()}_x_test_color_T.pickle", "wb")
+#pickle.dump(x_test_color, pickle_out)
+#pickle_out.close()
 
 pickle_out = open(f"{getpass.getuser()}_x_test_gray_T.pickle", "wb")
 pickle.dump(x_test_gray, pickle_out)
