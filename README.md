@@ -1,4 +1,4 @@
-**Dependencies**
+**Dependencies**   
 ![asdf](https://img.shields.io/badge/python-3.7-brightgreen) ![ads](https://img.shields.io/badge/tensorflow-1.14-orange) ![dasf](https://img.shields.io/badge/opencv-4.5.1-blue)
 
 ![asdf](https://img.shields.io/github/issues/AhnJunYeong0319/PoseEstimation)  ![asdf](https://img.shields.io/github/forks/AhnJunYeong0319/PoseEstimation)  ![asdf](https://img.shields.io/github/stars/AhnJunYeong0319/PoseEstimation)  ![asdf](https://img.shields.io/github/license/AhnJunYeong0319/PoseEstimation)   
