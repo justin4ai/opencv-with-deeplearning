@@ -2,7 +2,7 @@
 **Step 1** - `Computer Vision Study`) *January 8, 2021* ~ *Fabruary 2, 2021*   
 <br> 
 **Step 2** - `Pose Correction`) *Fabruary 3, 2021* ~ *Fabruary 28, 2021*
-<h1><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/PoseEstimation"> Pose Estimation </a></h1>
+<h1><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/PoseEstimation"> Pose Estimation </a> (한국어 설명 추가중)</h1>
 The repository for team Homiez's second project, Human Pose Estimation
 
 -Using python (`openCV`)
