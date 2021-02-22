@@ -8,7 +8,7 @@
 <h1><a href="https://github.com/AhnJunYeong0319/PoseEstimation/tree/main/PoseEstimation"> Pose Estimation </a> (한국어 설명 추가중)</h1>
 The repository for team Homiez's second project, Human Pose Estimation
 
--Using python (`openCV`)
+-Using python (`openCV`) 
 -The program gonna estimate your pose to figure out how well you are in your posture for certain exercises.
 
 
